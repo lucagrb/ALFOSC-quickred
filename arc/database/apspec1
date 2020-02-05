@@ -1,0 +1,29 @@
+# Wed 21:06:36 18-Dec-2019
+begin	aperture spec1 1 248.8232 1051.
+	image	spec1
+	aperture	1
+	beam	1
+	center	248.8232 1051.
+	low	-5. -1050.
+	high	5. 1051.
+	background
+		xmin -14.79727
+		xmax 11.2929
+		function chebyshev
+		order 1
+		sample  -14.79727:-11.1582 8.39259:11.2929
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	7
+		2.
+		3.
+		1.
+		1651.
+		0.7744512
+		0.4915799
+		0.5440347
+

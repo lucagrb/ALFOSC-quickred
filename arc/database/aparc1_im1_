@@ -1,0 +1,28 @@
+# Wed 21:10:44 18-Dec-2019
+begin	aperture arc1[im1] 1 248.8232 1051.
+	image	arc1[im1]
+	aperture	1
+	beam	1
+	center	248.8232 1051.
+	low	-1.078491 -1050.
+	high	1.421219 1051.
+	background
+		xmin -14.79727
+		xmax 11.2929
+		function chebyshev
+		order 1
+		sample -14.79727:-11.1582 8.39259:11.2929
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	6
+		2.
+		2.
+		1.
+		1441.
+		-5.937968
+		7.225509
+

@@ -1,0 +1,30 @@
+# Wed 21:52:40 18-Dec-2019
+begin	aperture std1 1 251.2377 1051.
+	image	std1
+	aperture	1
+	beam	1
+	center	251.2377 1051.
+	low	-6.709549 -1050.
+	high	5.715393 1051.
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	8
+		2.
+		4.
+		1.
+		2011.
+		-0.6473296
+		-2.465865
+		-1.474032
+		-0.2837225
+

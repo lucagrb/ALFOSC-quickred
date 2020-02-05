@@ -1,0 +1,51 @@
+Dec 18 21:10: DATABASE  - 1 apertures read for spec1 from database
+Dec 18 21:10: DATABASE  - 1 apertures read for spec1 from database
+Dec 18 21:10: APRESIZE  - 1 apertures resized for arc1[im1] (-1.08, 1.42)
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1051.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1061.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1091.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1101.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1131.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1141.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1201.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1211.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1221.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1251.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1261.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1311.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1321.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1331.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1341.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1391.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1401.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1451.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1461.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1471.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 1041.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 1031.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 951.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 941.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 861.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 851.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 771.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 761.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 751.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 681.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 671.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 471.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 461.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 421.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 411.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 311.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 301.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 291.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 281.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 221.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 211.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 201.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 191.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] lost at line 51.
+Dec 18 21:10: TRACE - Trace of aperture 1 in arc1[im1] recovered at line 41.
+Dec 18 21:10: TRACE - 1 apertures traced in arc1[im1].
+Dec 18 21:10: DATABASE - 1 apertures for arc1[im1] written to database
+Dec 18 21:10: EXTRACT - Aperture 1 from arc1[im1] --> arc1.ms[im1,append]
