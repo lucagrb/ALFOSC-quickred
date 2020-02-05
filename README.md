@@ -3,6 +3,8 @@ Quick data reduction code for ALFOSC spectra
 
 version 0.1 - This is a very short description of the code. a better version will be provided after the "official release" (YEAH!)
 
+This code reduces ALFOSC@NOT spectra, obtained with the grism #4 (ver 0.1) and provides a flux-calibrated spectrum using old calibration files. You need to download the entire set of files and directories somewhere into your computer.
+
 This script requires pyraf given that it is based on IRAF scripts.
 Then, the main pre-requisite consists in a working version of pyraf, which works better with python 2.7.
 My suggestion consists in creating a new conda environment, in this case named "iraf27" (of course, you need first conda) using the following command
@@ -16,11 +18,11 @@ and then activate the environment with
 You should need to install astropy inside this environment, and other classical libraries like matplotlib (but it is not necessary) numpy and shutil, unless these are already available within your environment.
 
 The code is still in a very preliminary version, but it works (at least on my mac).
-It is named 'quick_code_test.py' and can be easily launched from the shell script once you move to the "test" folder with
+The main core is the 'quick_code_test.py' script and can be easily launched from the shell once you move into the downloaded folder containing the script and the calibration files. At the moment you only need to launch 
 
 > python quick_code_test.py
 
-Of course, before launching, you MUST copy your science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the folder. The script starts reading these raw science files and use iraf.apall to identify the trace of your target in the 2D fits. 
+Of course, before launching, you MUST copy your science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the main root folder (what is named "folderroot" in the main script itself). The code starts reading these raw science files and use iraf.apall to identify the trace of your target in the 2D fits. 
 
 It then opens an interactive (classical) window where you can select the trace and the background. Instruction about the interactive use of apall can be found in the internet (e.g. http://joshwalawender.github.io/IRAFtutorial/IRAFintro_06.html)
 
