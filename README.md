@@ -22,7 +22,7 @@ The main core is the 'quick_code_test.py' script and can be easily launched from
 
 > python quick_code_test.py
 
-Of course, before launching, you MUST copy your science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the main root folder (what is named "folderroot" in the main script itself). The code starts reading these raw science files and use iraf.apall to identify the trace of your target in the 2D fits. 
+Of course, before launching, you MUST copy your science raw files (e.g. the 2D slit images named 'ALxxxxxfits') into the main root folder (what is named "folderroot" in the main script itself). The code starts reading these raw science files, correct for bias and flat field (illumination and response) and use iraf.apall to identify the trace of your target in the 2D fits. 
 
 It then opens an interactive (classical) window where you can select the trace and the background. Instruction about the interactive use of apall can be found in the internet (e.g. http://joshwalawender.github.io/IRAFtutorial/IRAFintro_06.html)
 
@@ -31,4 +31,6 @@ Note that the ALFOSC images generally do not have a signal from the trace in the
 The spectrum is then calibrated in wavelength and flux using old calibration files (obtained on December 2019) and finally cutted in the observed wavelength range (4000-9000 \AA) and moved into the output folder. The raw science files are then deleted.
 
 Future improvements will concern detailed parameters of apall, and likely improve the structure of the code (maybe writing it in a "pythonic way")
+
+I acknowledge the support and discussions with Charlotte Angus, Christa Gall and Daniele B. Malesani.
 
