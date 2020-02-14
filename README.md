@@ -32,5 +32,5 @@ The spectrum is then calibrated in wavelength and flux using old calibration fil
 
 Future improvements will concern detailed parameters of apall, and likely improve the structure of the code (maybe writing it in a "pythonic way")
 
-I acknowledge the support and discussions with Charlotte Angus, Christa Gall and Daniele B. Malesani.
+I acknowledge the support and discussions with Charlotte Angus, Christa Gall, Anne Noer Kolborg and Daniele B. Malesani.
 
